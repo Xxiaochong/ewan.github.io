@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta charset="utf-8">
+	<title>启月</title>
+	
+	<style type="text/css">
+		.ul1{margin:0;padding:0; list-style:none;}
+		.li1{margin:0;padding:0; list-style:none;}
+		.menu        {width:1000px; height:48px; margin:0 auto; background:url(image/tab.jpg) repeat-x; }
+		.menu ul     {width:1000px; height:48px; float:left;    display:inline;}
+		.menu ul li  {width:200px;  height:48px; float:left;    text-align:center;    line-height:48px; display:inline;}
+		.menu ul li a{width:200px;  height:48px; float:left;    text-decoration:none; color:#fff;       font-size:18px;font-weight:bold;}
+		.menu ul li a:hover{ background:#FF0000 repeat-x; }	
+		
+		.logo{}
+		.bodystyle{ margin:0 auto; width:1000px; background:#d5d5d7;}
+	</style>
+	
+	<link href="styless/qiyue.css" rel="stylesheet">	<!--用css将页面里所有的*段落*元素，文本改成红色-->
+	
+</head>
+	
+	
+<body>
+	
+	<div style="background-color: #2c343c;">
+		
+	<br>  <!--换行元素-->
+	
+	<div>
+		<h1 align="center">可控震源运行状态数据监控</h1>			
+	</div>
+	
+	<!--导航栏-->
+	<div class="menu" style="background-color: #b4b4b4;">
+		<ul class="ul1">
+			<li class="li1"><a href="index.html">系统状态</a></li>
+			<li class="li1"><a href="vibrators status.html">震源状态</a></li>
+			<li class="li1"><a href="system status.html">参数配置</a></li>
+			<li class="li1"><a href="internet.html">网络连接</a></li>
+			<li class="li1"><a href="user management.html">用户管理</a></li>
+			<!-- <li class="li1"><a href="http://eboard.taobao.com" target="_blank">关于我们</a></li> -->		
+		</ul>
+	</div>
+	<br>
+
+	
+<!-- 	<div class="menu" style="background-color:#00aa7f;color:#fff;margin-top:30px;">
+		<div>
+		<ul class="ul1">
+			<li class="li1"><a href="index.html">主页</a></li>
+			<li class="li1"><a href="STM32F407LED_OFF_BEEP_OFF.shtml">系统状态</a></li>
+			<li class="li1"><a href="STM32F407ADC_TEMPERATE.shtml">震源状态</a></li>
+			<li class="li1"><a href="STM32F407RTC.shtml">参数配置</a></li>
+			<li class="li1"><a href="http://eboard.taobao.com" target="_blank">联系我们</a></li>
+		</ul>
+		</div>
+	</div> -->
+	
+	<div align="center" style="color: #fff;">
+			<table border="2" cellpadding="10" >      <!--制作一个边框为 2 的表格-->
+
+				<tr>
+					<td>发动机转速（RPM）</td>
+					<td width="200"> </td>
+				</tr>
+				  
+				<tr>
+					<td>机油压力（Kpa）</td>
+					<td width="200"></td>
+				</tr>
+				  
+				<tr>
+					<td>****</td>
+					<td></td>
+				</tr>
+			  
+			</table>
+	
+	
+		<!-- <div style="margin-top:30px; text-align:center;">
+			<form method="get" action="/leds.cgi">
+				发动机转速（RPM）: 
+				<input type="radio" name="LED1" value="LED1ON" id="LED1_0"   >ON
+				<input name="LED1" type="radio" id="LED1_1" value="LED1OFF" checked>OFF<BR>
+				<input type="submit" name="button2" id="button2" value="SEND">
+			</form>
+		</div> -->
+
+	<br>
+	<p>基于震源运行状态预警阈值设定实现实时运行状态预警</p> <!-- 段落文本，其格式样式CSS可直接控制 -->
+	
+	</div>
+	
+	<script src="scripts/main.js" defer></script>
+		
+	<br><br><br>
+
+</body>
+</html>
